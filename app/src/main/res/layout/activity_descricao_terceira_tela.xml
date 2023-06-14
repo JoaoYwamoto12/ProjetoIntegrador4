@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescricaoTerceiraTela">
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="342dp"
+      android:layout_height="199dp"
+      android:layout_marginBottom="236dp"
+      android:fontFamily="@font/adamina"
+      android:text="Localização: Av. T-4 - Setor Bueno, Quadra 141, lote 04/05, Sala 310, Goiânia - GO"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView7"
+      app:layout_constraintVertical_bias="0.104" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="360dp"
+      android:layout_height="259dp"
+      android:fontFamily="@font/alata"
+      android:text="Cuidamos de quem você ama, no conforto do seu lar, com atendimento humanizado, amor e atenção. Oferecemos assistência emocional e física de alto padrão e profissionais qualificados, que possuem amor em cuidar, selecionados em um rigoroso processo e treinamento, com supervisão constante."
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.195"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.031" />
+
+  <Button
+      android:id="@+id/btnButton3"
+      android:layout_width="148dp"
+      android:layout_height="61dp"
+      android:text="Saiba Mais"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.828" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescricaoSegundaTela">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="342dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="228dp"
+        android:fontFamily="@font/adamina"
+        android:text="Localização: Rua 801, Chácara VI, - Osvaldo Rosa, Goiânia - GO, 74633-200"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="329dp"
+        android:layout_height="226dp"
+        android:fontFamily="@font/alata"
+        android:text="Precisamos da sua ajuda para continuar A Associação dos Surdos de Goiânia desenvolve ações de Assistência Social voltados para pessoas com deficiência e/ou em situações de risco. DOE E FAÇA O BEM."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <Button
+        android:id="@+id/btnButton2"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:text="Saiba Mais"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+</androidx.constraintlayout.widget.ConstraintLayout>

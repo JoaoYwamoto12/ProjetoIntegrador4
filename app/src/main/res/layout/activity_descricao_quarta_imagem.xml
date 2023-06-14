@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescricaoQuartaImagem">
+
+    <Button
+        android:id="@+id/btnButton4"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:text="Saiba Mais"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="380dp"
+        android:layout_height="266dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="A Casa de Apoio São Luiz é uma instituição filantrópica que tem por objetivo dar apoio e suporte aos portadores de câncer durante o processo de tratamento e recuperação. Fundada em novembro de 1999, no município de Aparecida de Goiânia, em Goiás, a Casa começou com uma estrutura pequena: apenas doze quartos."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="388dp"
+        android:layout_height="116dp"
+        android:text="R. Dr. Adail Viana Santana, S/N - Quadra APM - Lote 07-A - St. Serra Dourada - 3ª Etapa, Aparecida de Goiânia - GO, 74973-230"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.041" />
+</androidx.constraintlayout.widget.ConstraintLayout>
